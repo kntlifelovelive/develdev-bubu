@@ -5,7 +5,7 @@ vim.g.maplocalleader = " "
 -- Load options
 require("config.options")
 require("config.autocmds")
-
+require("plugins.autopairs")
 
 
 -- Setup Lazy.nvim
