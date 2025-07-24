@@ -68,10 +68,10 @@ return {
 
       vim.defer_fn(function()
       -- 💛 Folder Name (Yellow)
-      vim.api.nvim_set_hl(0, "NvimTreeFolderName", { fg = "#e0af68", bold = true })
+      vim.api.nvim_set_hl(0, "NvimTreeFolderName", { fg = "#e0af68", bold = true }) --#e0af68
 
       -- 💛 Opened Folder Name (Yellow)
-      vim.api.nvim_set_hl(0, "NvimTreeOpenedFolderName", { fg = "#e0af68", bold = true })
+      vim.api.nvim_set_hl(0, "NvimTreeOpenedFolderName", { fg = "#2ec4b6", bold = true }) -- #e56b6f 
 
       -- ✅ Executable Files
       vim.api.nvim_set_hl(0, "NvimTreeExecFile", { fg = "#9ece6a", bold = true })
@@ -80,10 +80,10 @@ return {
       vim.api.nvim_set_hl(0, "NvimTreeIndentMarker", { fg = "#565f89" })
 
       -- ✅ Folder Icon 💛
-      vim.api.nvim_set_hl(0, "NvimTreeFolderIcon", { fg = "#6b7280" })
+      vim.api.nvim_set_hl(0, "NvimTreeFolderIcon", { fg = "#2ec4b6" }) ---original color #6b7280
 
       -- ✅ Cursor highlight row 💙
-      vim.api.nvim_set_hl(0, "NvimTreeCursorLine", { bg = "#6b7280" }) -- Blue light
+      vim.api.nvim_set_hl(0, "NvimTreeCursorLine", { bg = "#6b7280" }) -- #38a3a5  
     end, 100)
 
     -- CursorLine apply for NvimTree only
