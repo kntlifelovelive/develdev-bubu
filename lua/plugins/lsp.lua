@@ -24,6 +24,7 @@ return {
           "dockerls",
           "docker_compose_language_service",
           "marksman",
+          "emmet_ls",
         },
         automatic_installation = true,
       })
@@ -77,6 +78,9 @@ return {
         dockerls = {},
         docker_compose_language_service = {},
         marksman = {},
+        emmet_ls = {
+          filetypes = { "html", "css", "javascriptreact", "typescriptreact", "vue", "svelte" },
+          },
       }
 
       for server, opts in pairs(servers) do
